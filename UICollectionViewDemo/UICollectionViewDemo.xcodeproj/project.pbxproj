@@ -14,6 +14,7 @@
 		83D6180E1B57517C00EC9269 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D6180D1B57517C00EC9269 /* Images.xcassets */; };
 		83D618111B57517C00EC9269 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D6180F1B57517C00EC9269 /* LaunchScreen.xib */; };
 		83D6181D1B57517C00EC9269 /* UICollectionViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D6181C1B57517C00EC9269 /* UICollectionViewDemoTests.m */; };
+		83D618281B57524A00EC9269 /* WaterFallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D618271B57524A00EC9269 /* WaterFallViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		83D618161B57517C00EC9269 /* UICollectionViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D6181B1B57517C00EC9269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83D6181C1B57517C00EC9269 /* UICollectionViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewDemoTests.m; sourceTree = "<group>"; };
+		83D618261B57523F00EC9269 /* WaterFallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallViewController.h; sourceTree = "<group>"; };
+		83D618271B57524A00EC9269 /* WaterFallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		83D617F41B57517C00EC9269 = {
 			isa = PBXGroup;
 			children = (
+				83D618261B57523F00EC9269 /* WaterFallViewController.h */,
+				83D618271B57524A00EC9269 /* WaterFallViewController.m */,
 				83D617FF1B57517C00EC9269 /* UICollectionViewDemo */,
 				83D618191B57517C00EC9269 /* UICollectionViewDemoTests */,
 				83D617FE1B57517C00EC9269 /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83D618091B57517C00EC9269 /* ViewController.m in Sources */,
+				83D618281B57524A00EC9269 /* WaterFallViewController.m in Sources */,
 				83D618061B57517C00EC9269 /* AppDelegate.m in Sources */,
 				83D618031B57517C00EC9269 /* main.m in Sources */,
 			);
