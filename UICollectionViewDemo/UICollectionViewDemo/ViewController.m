@@ -56,7 +56,7 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 500;
+    return 5000;
 }
 
 //设置cell，与tableview类似

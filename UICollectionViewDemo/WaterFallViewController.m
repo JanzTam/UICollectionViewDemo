@@ -36,7 +36,10 @@
     
     collectionV.backgroundColor = [UIColor colorWithRed:0.943 green:0.988 blue:1.000 alpha:1.000];
     [collectionV registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"waterFallCell"];
+    
+    //注册headView
     [collectionV registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"headView"];
+    //注册footView
     [collectionV registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:@"footView"];
 }
 
@@ -45,7 +48,7 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 16;
+    return 32;
 }
 
 
@@ -93,6 +96,7 @@
 //head & foot
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
 {
+    //根据kind来区分head/foot
     if ([kind isEqualToString:UICollectionElementKindSectionFooter])
     {
         UICollectionReusableView * cRFootView = [collectionV dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"footView" forIndexPath:indexPath];
