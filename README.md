@@ -4,7 +4,10 @@ UICollectionViewDemo,the basic  how to use
 ![](https://github.com/JanzTam/UICollectionViewDemo/blob/master/UICollectionViewDemo/collectionView.gif)
 
 
-.h:```UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout```
+#####.h:
+```
+UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout
+```
 
 
 #####UICollectionViewFlowLayout
