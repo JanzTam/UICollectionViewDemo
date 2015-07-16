@@ -15,6 +15,7 @@
 		83D618111B57517C00EC9269 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D6180F1B57517C00EC9269 /* LaunchScreen.xib */; };
 		83D6181D1B57517C00EC9269 /* UICollectionViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D6181C1B57517C00EC9269 /* UICollectionViewDemoTests.m */; };
 		83D618281B57524A00EC9269 /* WaterFallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D618271B57524A00EC9269 /* WaterFallViewController.m */; };
+		83D6182B1B5760D400EC9269 /* collectionView.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83D6182A1B5760D400EC9269 /* collectionView.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		83D6181C1B57517C00EC9269 /* UICollectionViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewDemoTests.m; sourceTree = "<group>"; };
 		83D618261B57523F00EC9269 /* WaterFallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallViewController.h; sourceTree = "<group>"; };
 		83D618271B57524A00EC9269 /* WaterFallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallViewController.m; sourceTree = "<group>"; };
+		83D6182A1B5760D400EC9269 /* collectionView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = collectionView.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		83D617F41B57517C00EC9269 = {
 			isa = PBXGroup;
 			children = (
+				83D6182A1B5760D400EC9269 /* collectionView.gif */,
 				83D618261B57523F00EC9269 /* WaterFallViewController.h */,
 				83D618271B57524A00EC9269 /* WaterFallViewController.m */,
 				83D617FF1B57517C00EC9269 /* UICollectionViewDemo */,
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83D6180C1B57517C00EC9269 /* Main.storyboard in Resources */,
+				83D6182B1B5760D400EC9269 /* collectionView.gif in Resources */,
 				83D618111B57517C00EC9269 /* LaunchScreen.xib in Resources */,
 				83D6180E1B57517C00EC9269 /* Images.xcassets in Resources */,
 			);
@@ -422,6 +426,7 @@
 				83D618221B57517C00EC9269 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83D618231B57517C00EC9269 /* Build configuration list for PBXNativeTarget "UICollectionViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +435,7 @@
 				83D618251B57517C00EC9269 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
