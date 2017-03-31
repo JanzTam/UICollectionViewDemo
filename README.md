@@ -4,13 +4,13 @@ UICollectionViewDemo,the basic  how to use
 ![](https://github.com/JanzTam/UICollectionViewDemo/blob/master/UICollectionViewDemo/collectionView.gif)
 
 
-#####.h:
+##### .h:
 ```
 UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout
 ```
 
 
-#####UICollectionViewFlowLayout
+##### UICollectionViewFlowLayout
 创建`UICollectionView`之前一定要先配置好`UICollectionViewFlowLayout`
 ```
     CFL                         = [[UICollectionViewFlowLayout alloc]init];
@@ -19,7 +19,7 @@ UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlow
 ```
 
 
-#####UICollectionView
+##### UICollectionView
 ```
     CV            = [[UICollectionView alloc]initWithFrame:self.view.frame collectionViewLayout:CFL];
     CV.dataSource = self;
@@ -29,7 +29,7 @@ UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlow
 ```
 
 
-#####实现代理方法
+##### 实现代理方法
 ```
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
